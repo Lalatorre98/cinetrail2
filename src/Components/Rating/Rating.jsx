@@ -8,10 +8,10 @@ export const Rating = ({movieRating}) => {
         <StarRatings
          rating={movieRating} 
          numberOfStars={5} 
-         name='rating' 
+         name='rating'
          starDimension='15px' 
          starSpacing='1px'
-         starRatedColor='e50916'
+         starRatedColor='#e50916'
          />
     </div>
   )

@@ -6,8 +6,8 @@ import Homepage from './pages/Homepage/Homepage';
 
 function App() {
 
-  const apiKey = import.meta.env.VITE_APP_API_KEY;
-  const baseUrl = import.meta.env.VITE_BASE_URL;
+  const apiKey = import.meta.env.VITE_APP_API_KEY
+  const baseUrl = import.meta.env.VITE_BASE_URL
 
   return (
     <ThemeContexProvider>
