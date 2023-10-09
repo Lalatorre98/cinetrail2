@@ -3,6 +3,7 @@ import './Homepage.css'
 import Slider from '../../Components/Slider/Slider'
 import axios from 'axios'
 import MovieCard from '../../Components/MovieCard/MovieCard'
+// import MovieDetails from '../MovieDetails/MovieDetails'
 
 
 const Homepage=({apiKey, baseUrl})=> {

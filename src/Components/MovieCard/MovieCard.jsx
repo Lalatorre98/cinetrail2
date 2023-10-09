@@ -3,6 +3,7 @@ import "./MovieCard.css"
 import { Link } from "react-router-dom"
 import {Rating} from "../Rating/Rating"
 
+
 const MovieCard = ({ width, height, movie, radius, cardStyle, imageUrl }) => {
   const [rating, setRating] = useState(Math.round(movie?.vote_average / 2));
 
